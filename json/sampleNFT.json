@@ -1,0 +1,20 @@
+{
+  "image": "ipfs://QmSMfVki2Z9wp5hGbS5rZw6RRVmjVZWFrKwSCm453ZCcB1/image1.png",
+  "external_url": "https://www.coreenginepro.com/nft-bnd/",
+  "description": "Tai Tam Intermediate Reservoir in the trekking trip",
+  "name": "Violet Hill The Twin Trip #1",
+  "attributes": [
+    {
+      "trait_type": "View",
+      "value": "great"
+    },
+    {
+      "trait_type": "Shooting",
+      "value": "Nokia"
+    },
+    {
+      "trait_type": "location",
+      "value": "up hill violet"
+    }
+  ]
+}
