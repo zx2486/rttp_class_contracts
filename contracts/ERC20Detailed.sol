@@ -186,7 +186,7 @@ contract ERC20Detailed is IERC20 {
         require(account != address(0), "ERC20: mint to the zero address");
 
         _totalSupply = _totalSupply+(amount);
-        _balances[account] = _balances[account]-(amount);
+        _balances[account] = _balances[account]+(amount);
         emit Transfer(address(0), account, amount);
     }
 
