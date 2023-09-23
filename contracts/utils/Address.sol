@@ -67,7 +67,7 @@ library Address {
             "Address: insufficient balance"
         );
 
-        (bool success, ) = recipient.call{value: amount}("");
+        (bool success, ) = recipient.call{ value: amount }("");
         require(
             success,
             "Address: unable to send value, recipient may have reverted"
@@ -160,7 +160,7 @@ library Address {
             address(this).balance >= value,
             "Address: insufficient balance for call"
         );
-        (bool success, bytes memory returndata) = target.call{value: value}(
+        (bool success, bytes memory returndata) = target.call{ value: value }(
             data
         );
         return

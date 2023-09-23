@@ -111,4 +111,10 @@ contract basicNFT is ERC721, ERC721Burnable, Adminstrator {
 		return 1;
 	}
 	*/
+    /*
+    // Add contractURI so that marketplace can show information on the collection
+    function contractURI() public view virtual returns (string memory) {
+        return "ipfs://QmSt1dU4LF8jtfwPQF8Nr2Msda2BN4fJ6C5XNAod6RDNik/";
+    }
+    */
 }
