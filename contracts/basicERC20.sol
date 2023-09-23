@@ -15,7 +15,7 @@ contract basicERC20 is ERC20, ERC20Burnable, Adminstrator {
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
     constructor() ERC20("Class 23 Sep 2023", "Class23Sep") {
-        uint256 totalSupply = 32 * (10 ** 6); //3.2 millions coins
+        uint256 totalSupply = 32 * (10 ** 5); //3.2 millions coins
         _mint(msg.sender, totalSupply * (10 ** uint256(decimals())));
     }
 
