@@ -2,3 +2,5 @@
 **/logs
 *.log
 package-lock.json
+**/.deps
+**/.git
