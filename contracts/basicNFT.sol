@@ -67,7 +67,7 @@ contract basicNFT is ERC721, ERC721Burnable, Adminstrator {
         string memory baseURI = _baseURI();
         return
             bytes(baseURI).length > 0
-                ? string(abi.encodePacked(baseURI, tokenId, ".json"))
+                ? string(abi.encodePacked(baseURI, Strings.toString(tokenId), ".json"))
                 : "";
     }
 
